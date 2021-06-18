@@ -69,7 +69,7 @@ colnames(spb.combined.weeks) <- colnames(spb.combined)
 spb.combined.weeks$TIME <- strptime(spb.combined.weeks$TIME, "%Y-%m-%d")
 
 ################################################################
-# Saving the files;
+# Saving derived data to files;
 
 dir.create("../data/derived")
 
