@@ -35,10 +35,12 @@ spb.combined <- cbind.data.frame(
 	c(rep(NA, (nrow(spb.sk_truncated)-nrow(spb.lcb_primary))), spb.lcb_primary$i),
 	spb.h_combined$HOSPITALIZED.today,
 	c(rep(NA, (nrow(spb.sk_truncated)-nrow(spb.PCR_truncated))), spb.PCR_truncated$TESTS),
+	c(rep(NA, (nrow(spb.sk_truncated)-nrow(spb.lcb_primary))), spb.lcb_primary$v1.CS),
+	c(rep(NA, (nrow(spb.sk_truncated)-nrow(spb.lcb_primary))), spb.lcb_primary$v2.CS),
 	spb.yandex_activity_truncated$Yandex.ACTIVITY.points
 	)
 
-colnames(spb.combined) <- c("TIME", "CONFIRMED", "RECOVERED", "DEATHS", "ACTIVE", "CONFIRMED.spb", "HOSPITALIZED.today", "PCR.tested", "Yandex.ACTIVITY.points")
+colnames(spb.combined) <- c("TIME", "CONFIRMED", "RECOVERED", "DEATHS", "ACTIVE", "CONFIRMED.spb", "HOSPITALIZED.today", "PCR.tested", "v1.CS", "v2.CS", "Yandex.ACTIVITY.points")
 
 ################################################################
 # Building a combined data frame aggregated by weeks;
@@ -51,6 +53,8 @@ weeks.ACTIVE <- NULL
 weeks.CONFIRMED.spb <- NULL
 weeks.HOSPITALIZED.today <- NULL
 weeks.PCR.tested <- NULL
+weeks.v1.CS <- NULL
+weeks.v2.CS <- NULL
 weeks.Yandex.ACTIVITY.points <- NULL
 
 for(i in 1:(nrow(spb.combined) %/% 7)){
@@ -62,6 +66,8 @@ for(i in 1:(nrow(spb.combined) %/% 7)){
 	weeks.CONFIRMED.spb <- c(weeks.CONFIRMED.spb, sum(spb.combined$CONFIRMED.spb[(1+(i-1)*7):(7+(i-1)*7)], na.rm=TRUE))
 	weeks.HOSPITALIZED.today <- c(weeks.HOSPITALIZED.today, sum(spb.combined$HOSPITALIZED.today[(1+(i-1)*7):(7+(i-1)*7)], na.rm=TRUE))
 	weeks.PCR.tested <- c(weeks.PCR.tested, sum(spb.combined$PCR.tested[(1+(i-1)*7):(7+(i-1)*7)], na.rm=TRUE))
+	weeks.v1.CS <- c(weeks.v1.CS, spb.combined$v1.CS[i*7])
+	weeks.v2.CS <- c(weeks.v2.CS, spb.combined$v2.CS[i*7])
 	weeks.Yandex.ACTIVITY.points <- c(weeks.Yandex.ACTIVITY.points, mean(spb.combined$Yandex.ACTIVITY.points[(1+(i-1)*7):(7+(i-1)*7)], na.rm=TRUE))
 }
 
@@ -74,6 +80,8 @@ spb.combined.weeks <- cbind.data.frame(
 	weeks.CONFIRMED.spb,
 	weeks.HOSPITALIZED.today,
 	weeks.PCR.tested,
+	weeks.v1.CS,
+	weeks.v2.CS,
 	weeks.Yandex.ACTIVITY.points
 	)
 
