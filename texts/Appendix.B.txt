@@ -1,0 +1,37 @@
+TIME	STATUS	REGION	COUNT	SOURCES	NOTES
+2020-03-05 11:26:00	detected	St. Petersburg	1	https://www.kommersant.ru/doc/4277083, https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=13897	
+2020-03-07 15:03:00	detected	St. Petersburg	1	https://rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=13920	Timestamp based on https://www.kommersant.ru/doc/4282942
+2020-03-13 16:12:00	detected	St. Petersburg	3	https://www.rosminzdrav.ru/ministry/covid19, https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=13982, https://www.kommersant.ru/doc/4289624	
+2020-03-14 18:07:00	detected	St. Petersburg	1	https://www.kommersant.ru/doc/4290127, https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=13988	
+2020-03-16 15:45:00	detected	St. Petersburg	3	https://www.kommersant.ru/doc/4290816, https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=13999	Previous imprecise (inferred) calculations : 21+3+2 assumed on the basis of the following calculation. https://www.kommersant.ru/doc/4285154 update shows 53 cases for Moscow; 27 new cases for 2020-03-16. 1 case ascribed to Krasnoyarsk; The remaining 26 are split in 21+5 because, as for 2020-03-15, there were 32 cases in Moscow. Te remainig 5 are split into 3+2 on the basis of https://ria.ru/20200317/1568706559.html it was stated that 3 new cases are registered in St. Petersburg. It is also possible that the number is 3 persons higher because some report +30 cases, taking 63, not 66 as a base (it is not clear whether 3 Diamond Princess cases were counted in or not, when reporting 93 for 2020-03-16). 2 cases were initially classified as Russia (undefined); Now everything is corrected according the RosPotrebNadzor bulletin; Timestamp arbitrary, based on the Kommersant publication;
+2020-03-16 15:45:00	recovered	St. Petersburg	2	https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=13999, https://ria.ru/20200317/1568706559.html	An Italian citizen and <a contacting woman> released <yesterday>.
+2020-03-19 16:01:00	detected	St. Petersburg	1	https://www.rbc.ru/society/19/03/2020/5e736c549a7947c591ca5556, https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14060
+2020-03-20 16:00:00	detected	St. Petersburg	4	https://www.rbc.ru/society/20/03/2020/5e74cd909a79476f50f154de, https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14070
+2020-03-21 16:42:00	detected	St. Petersburg	2	https://www.rbc.ru/society/21/03/2020/5e7619ae9a79475d85d97aac, https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14084
+2020-03-24 14:19:00	detected	St. Petersburg	5	https://ria.ru/20200324/1569071483.html, https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14104
+2020-03-26 11:00:00	detected	St. Petersburg	5	https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14115	
+2020-03-26 11:00:00	recovered	St. Petersburg	3	https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14115	
+2020-03-28 12:20:00	detected	St. Petersburg	11	https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14132	
+2020-03-29 11:20:00	detected	St. Petersburg	5	https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14134	
+2020-03-30 12:00:00	detected	St. Petersburg	8	https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14137	
+2020-03-31 12:20:00	detected	St. Petersburg	48	https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14147	
+2020-04-01 11:15:00	detected	St. Petersburg	27	https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14157	
+2020-04-02 11:20:00	detected	St. Petersburg	22	https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14160	
+2020-04-03 10:45:00	detected	St. Petersburg	9	https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14171	
+2020-04-04 11:30:00	detected	St. Petersburg	15	https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14179	
+2020-04-05 13:40:00	detected	St. Petersburg	20	https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14182	
+2020-04-06 11:00:00	detected	St. Petersburg	35	https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14185	
+2020-04-07 10:45:00	detected	St. Petersburg	69	https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14193	
+
+################################################################
+# Appendix A. Data sources for the period prior to 2020-04-08
+#
+# Explanation of variables:
+#
+# TIME : Time of the publication of the main source as stated in the source;
+# STATUS : Status of persons mentioned in the source;
+# REGION : St. Petersburg (the present Appendix file is derived from a larger dataset which includes data from othe regions of Russia);
+# COUNT : The number of persons in a given status;
+# SOURCES : A URL or a list of URLs from which the number and status were obtained or inferred;
+# NOTES : Notes concerning the data;
+#
