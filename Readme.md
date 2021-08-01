@@ -85,6 +85,8 @@ A general remark on dates used. Majority of the reports containing data of inter
   * "COUNT.SATURATION" : integer, number of search queries `SATURATION` for a given week, **source:** wordstat.yandex.ru for ["сатурация"](https://wordstat.yandex.ru/#!/history?period=weekly&regions=2&words=%D1%81%D0%B0%D1%82%D1%83%D1%80%D0%B0%D1%86%D0%B8%D1%8F);
   * "SHARE.SATURATION" : numeric, share of search queries `SATURATION` among all search queries for a given week, **source:** same as `COUNT.SATURATION`;
 
+  **Note.** The early data for the fall of 2019 -- spring of 2020 were kindly shared with me by [Alexandr Dragan](https://www.facebook.com/alexx.dragan).
+
 `derived` folder contains datasets based on the datasets from `primary` folder:
 
 * `spb.combined.daily.txt` contains tab-delimited values for:
