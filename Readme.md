@@ -124,6 +124,8 @@ A general remark on dates used. Majority of the reports containing data of inter
   * "spb.excessive_to_2019" : integer, based on a subtraction of 2020 total deaths, monthly, from 2019 total deaths, monthly;
   * "spb.excessive_to_mean.5" : numeric, based on a subtraction of 2020 total deaths, monthly, from 2014 -- 2019 mean total deaths, monthly;
 
+  **Sources.** "spb.excessive_to_2019" and "spb.excessive_to_mean.5" are based on monthly reports by Rosstat. See [Appendix C](texts/Appendix.C.txt) for the full list of URLs. 
+
 ## The Scripts
 
-* `data.transformation.r` : documents transition of data from primary to derived datasets;
+* `data.transformation.r` : documents transition of data from primary to derived datasets `spb.combined.daily.txt` and `spb.combined.weekly.txt`;

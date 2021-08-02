@@ -24,7 +24,7 @@ TIME	STATUS	REGION	COUNT	SOURCES	NOTES
 2020-04-07 10:45:00	detected	St. Petersburg	69	https://www.rospotrebnadzor.ru/about/info/news/news_details.php?ELEMENT_ID=14193	
 
 ################################################################
-# Appendix A. Data sources for the period prior to 2020-04-08
+# Appendix B. Data sources for the period prior to 2020-04-08
 #
 # Explanation of variables:
 #
