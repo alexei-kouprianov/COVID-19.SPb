@@ -18,6 +18,9 @@ A BibTeX entry for LaTeX users is:
 
 This repo was created to keep records of the COVID-19 epidemics in St. Petersburg, Russia. The datasets are based on a range of sources: the official reports published by Rospotrebnadzor (Federal Service for Surveillance on Consumer Rights Protection and Human Wellbeing / Russia), Rosstat (Federal State Statistics Service / Russia), and local authorities (St. Petersburg government, Interdepartmental City Council for Prevention of the Spread of a New Coronavirus Infection (COVID-19) in St. Petersburg), and open data resulted from an original research by Yandex N.V.
 
+The datasets stored in this repository were used in *COVID-19 pandemic in Saint Petersburg, Russia: combining surveillance and population-based serological study data in May, 2020 - April, 2021* / Anton Barchuk, Dmitriy Skougarevskiy, Alexei Kouprianov, Daniil Shirokov, Olga Dudkina, Rustam Tursun-zade, Mariia Sergeeva, Varvara Tychkova, Andrey Komissarov, Alena Zheltukhina, Dmitry Lioznov, Artur Isaev, Ekaterina Pomerantseva, Svetlana Zhikrivetskaya, Yana Sofronova, Konstantin Blagodatskikh, Kirill Titaev, Lubov Barabanova, Daria Danilenko
+*medRxiv* 2021.07.31.21261428; [doi : 10.1101/2021.07.31.21261428v1](https://doi.org/10.1101/2021.07.31.21261428)
+
 All the datasets stored in this repository are licensed under [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
 ## The Data
