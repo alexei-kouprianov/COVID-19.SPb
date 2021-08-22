@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use the data or scripts from this repository, please cite it as below:"
+authors:
+- family-names: "Kouprianov"
+  given-names: "Alexei"
+  orcid: "https://orcid.org/0000-0002-8277-627X"
+title: "COVID-19.SPb. Coronavirus epidemics in St. Petersburg, Russia: data and scripts"
+version: 1.0
+doi: 
+date-released: 2021-08-02
+url: "https://github.com/alexei-kouprianov/COVID-19.SPb"
